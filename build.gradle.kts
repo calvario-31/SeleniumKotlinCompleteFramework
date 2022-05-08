@@ -27,6 +27,10 @@ dependencies {
     implementation("org.apache.logging.log4j:log4j-api:2.17.2")
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
     implementation("org.slf4j:slf4j-simple:1.7.36")
+    // https://mvnrepository.com/artifact/com.github.ozlerhakan/poiji
+    implementation("com.github.ozlerhakan:poiji:3.1.7")
+    // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+    implementation("com.github.javafaker:javafaker:1.0.2")
 }
 
 tasks.test {
