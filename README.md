@@ -1,5 +1,7 @@
 # SELENIUM KOTLIN FRAMEWORK
 
+Selenium kotlin using Junit5
+
 To run with command line:
 
 ```sh
