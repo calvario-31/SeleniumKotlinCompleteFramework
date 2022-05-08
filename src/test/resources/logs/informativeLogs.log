@@ -1,0 +1,23 @@
+00:50:03.913 [Test worker] INFO  AUTOMATION - 
+00:50:03.918 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+00:50:03.918 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+00:50:03.919 [Test worker] INFO  AUTOMATION - Beginning: LoginTest
+00:50:03.919 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+00:50:03.919 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+00:50:03.919 [Test worker] INFO  AUTOMATION - 
+00:50:10.589 [Test worker] INFO  AUTOMATION - Waiting LoginPage to load
+00:50:10.699 [Test worker] INFO  AUTOMATION - Page loaded successfully
+00:50:10.708 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+00:50:10.708 [Test worker] INFO  AUTOMATION - Test: validCredentialsTest
+00:50:10.727 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+00:50:10.748 [Test worker] INFO  AUTOMATION - entering username
+00:50:11.201 [Test worker] INFO  AUTOMATION - entering password
+00:50:11.399 [Test worker] INFO  AUTOMATION - click on login button
+00:50:13.492 [Test worker] INFO  AUTOMATION - Waiting HomePage to load
+00:50:13.761 [Test worker] INFO  AUTOMATION - Page loaded successfully
+00:50:13.969 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+00:50:13.969 [Test worker] INFO  AUTOMATION - PASSED
+00:50:13.969 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+00:50:13.970 [Test worker] INFO  AUTOMATION - 
+00:50:13.970 [Test worker] INFO  AUTOMATION - 
+00:50:13.976 [Test worker] INFO  AUTOMATION - Suite finished
