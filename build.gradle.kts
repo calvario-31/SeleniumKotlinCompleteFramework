@@ -3,7 +3,10 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent
 
 plugins {
     kotlin("jvm") version "1.6.20"
+    id("io.qameta.allure") version "2.9.6"
 }
+
+val testCompile: Configuration by configurations.creating
 
 group = "org.example"
 version = "1.0-SNAPSHOT"
@@ -72,5 +75,20 @@ tasks.withType<Test> {
         }
         info.events = debug.events
         info.exceptionFormat = debug.exceptionFormat
+    }
+}
+
+allure {
+    adapter {
+        aspectjWeaver.set(true)
+        autoconfigure.set(true)
+        allureJavaVersion.set("2.13.9")
+        autoconfigureListeners.set(true)
+        frameworks {
+            junit5 {
+                adapterVersion.set("2.13.9")
+                enabled.set(true)
+            }
+        }
     }
 }

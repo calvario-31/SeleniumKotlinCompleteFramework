@@ -1,6 +1,7 @@
 package pageobjects.login
 
 import base.BasePage
+import io.qameta.allure.Step
 import org.junit.jupiter.api.Assertions.assertAll
 
 import org.junit.jupiter.api.Assertions.assertTrue
@@ -13,10 +14,12 @@ class LoginPage(driver: WebDriver, timeOut: Long = 5) : BasePage(driver, timeOut
     private val passwordInput = By.id("password")
     private val loginButton = By.id("login-button")
 
+    @Step("Waiting login page to load")
     override fun waitPageToLoad() {
         waitPage(usernameInput, this.javaClass.simpleName)
     }
 
+    @Step("Verifying login page")
     override fun verifyPage() {
         assertAll( "login page",
             Executable { assertTrue(verifyIsDisplayed(usernameInput)) },
@@ -25,6 +28,7 @@ class LoginPage(driver: WebDriver, timeOut: Long = 5) : BasePage(driver, timeOut
         )
     }
 
+    @Step("Filling login form")
     fun fillForm(username: String, password: String) {
         log.info("Entering username")
         typeText(usernameInput, username)
