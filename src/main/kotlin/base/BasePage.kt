@@ -30,12 +30,7 @@ abstract class BasePage(private val driver: WebDriver, timeOut: Long = 5) {
     }
 
     protected fun verifyIsDisplayed(locator: By): Boolean {
-        return try {
-            waitForVisibility(locator)
-            true
-        } catch (e: NoSuchElementException) {
-            false
-        }
+        return driver.findElement(locator).isDisplayed
     }
 
     protected fun waitPage(locator: By, text: String) {
@@ -45,6 +40,7 @@ abstract class BasePage(private val driver: WebDriver, timeOut: Long = 5) {
     }
 
     fun goToIndex() {
+        log.debug("Going to $mainUrl")
         driver.get(mainUrl)
     }
 

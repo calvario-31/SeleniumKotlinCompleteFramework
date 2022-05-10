@@ -1,3 +1,4 @@
+
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 import org.gradle.api.tasks.testing.logging.TestLogEvent
 
@@ -43,11 +44,19 @@ tasks.test {
             includeTags(suiteName)
         }
     }
+    if (project.hasProperty("browser")) {
+        //assign browser if exists
+        systemProperty("browser", project.property("browser").toString())
+    } else {
+        //default to chrome
+        systemProperty("browser", "CHROME")
+    }
 
     outputs.upToDateWhen { false }
 }
 
 tasks.withType<Test> {
+
     testLogging {
         // set options for log level LIFECYCLE
         events(
@@ -56,7 +65,7 @@ tasks.withType<Test> {
             TestLogEvent.SKIPPED,
             TestLogEvent.STANDARD_OUT
         )
-        exceptionFormat = TestExceptionFormat.FULL
+        exceptionFormat = TestExceptionFormat.SHORT
         showExceptions = true
         showCauses = true
         showStackTraces = true

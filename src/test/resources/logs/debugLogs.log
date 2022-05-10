@@ -1,23 +1,27 @@
-12:41:02.070 [Test worker] INFO  AUTOMATION - 
-12:41:02.077 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-12:41:02.077 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-12:41:02.077 [Test worker] INFO  AUTOMATION - Beginning: LoginTest
-12:41:02.078 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-12:41:02.078 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-12:41:02.078 [Test worker] INFO  AUTOMATION - 
-12:41:10.619 [Test worker] INFO  AUTOMATION - Waiting LoginPage to load
-12:41:10.769 [Test worker] INFO  AUTOMATION - Page loaded successfully
-12:41:10.773 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-12:41:10.773 [Test worker] INFO  AUTOMATION - Test: validCredentialsTest
-12:41:10.773 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-12:41:10.777 [Test worker] INFO  AUTOMATION - Entering username
-12:41:11.218 [Test worker] INFO  AUTOMATION - Entering password
-12:41:11.339 [Test worker] INFO  AUTOMATION - Clicking on login button
-12:41:13.471 [Test worker] INFO  AUTOMATION - Waiting HomePage to load
-12:41:13.715 [Test worker] INFO  AUTOMATION - Page loaded successfully
-12:41:13.989 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-12:41:13.989 [Test worker] INFO  AUTOMATION - PASSED
-12:41:13.990 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-12:41:13.990 [Test worker] INFO  AUTOMATION - 
-12:41:13.990 [Test worker] INFO  AUTOMATION - 
-12:41:14.180 [Test worker] INFO  AUTOMATION - Suite finished
+11:34:16.968 [Test worker] INFO  AUTOMATION - 
+11:34:16.979 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:16.979 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:16.979 [Test worker] INFO  AUTOMATION - Beginning: LoginTest
+11:34:16.979 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:16.979 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:16.979 [Test worker] INFO  AUTOMATION - 
+11:34:17.116 [Test worker] DEBUG AUTOMATION - Init driver
+11:34:17.120 [Test worker] DEBUG AUTOMATION - Creating edge browser
+11:34:23.338 [Test worker] DEBUG AUTOMATION - Going to https://www.saucedemo.com/
+11:34:24.616 [Test worker] INFO  AUTOMATION - Waiting LoginPage to load
+11:34:24.836 [Test worker] INFO  AUTOMATION - Page loaded successfully
+11:34:24.842 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:24.842 [Test worker] INFO  AUTOMATION - Test: validCredentialsTest
+11:34:24.843 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:24.855 [Test worker] INFO  AUTOMATION - Entering username
+11:34:25.353 [Test worker] INFO  AUTOMATION - Entering password
+11:34:25.946 [Test worker] INFO  AUTOMATION - Clicking on login button
+11:34:27.817 [Test worker] INFO  AUTOMATION - Waiting HomePage to load
+11:34:28.302 [Test worker] INFO  AUTOMATION - Page loaded successfully
+11:34:28.557 [Test worker] DEBUG AUTOMATION - Killing driver
+11:34:28.740 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:28.741 [Test worker] INFO  AUTOMATION - PASSED
+11:34:28.741 [Test worker] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:28.741 [Test worker] INFO  AUTOMATION - 
+11:34:28.741 [Test worker] INFO  AUTOMATION - 
+11:34:28.948 [Test worker] INFO  AUTOMATION - Suite finished
